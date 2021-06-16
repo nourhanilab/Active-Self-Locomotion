@@ -179,6 +179,4 @@ dict_temp = {'0': [phor_vel[0]], \
         '5': [phor_vel[5]]}
 pd.DataFrame(dict_temp).to_csv("phor_vel_omega.csv",header=False, index=False)
 
-#foo = np.array([1,2,3])
-#with open('file'+'_2', 'wb') as abc:
-#    np.savetxt(abc, foo, delimiter=",")
+
